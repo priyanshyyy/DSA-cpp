@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nestlé | Good Food, Good Life</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be_Vietnam_Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed-variant": "#004882",
+                        "tertiary-fixed-dim": "#ffb77a",
+                        "on-tertiary-fixed": "#2e1500",
+                        "on-surface": "#191c20",
+                        "secondary": "#4d5f7a",
+                        "surface-container-highest": "#e1e2e8",
+                        "on-primary-container": "#c0d9ff",
+                        "surface-container-high": "#e7e8ee",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#b4c8e7",
+                        "surface": "#f8f9ff",
+                        "outline-variant": "#c2c7d2",
+                        "surface-container": "#ededf4",
+                        "tertiary-fixed": "#ffdcc2",
+                        "primary-fixed": "#d3e3ff",
+                        "on-background": "#191c20",
+                        "on-surface-variant": "#424750",
+                        "on-error-container": "#93000a",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "primary": "#004781",
+                        "surface-variant": "#e1e2e8",
+                        "tertiary-container": "#8e4d00",
+                        "on-tertiary-container": "#ffcea7",
+                        "primary-fixed-dim": "#a3c9ff",
+                        "on-primary-fixed": "#001c39",
+                        "on-secondary-container": "#4f627d",
+                        "surface-container-low": "#f3f3f9",
+                        "surface-tint": "#2060a1",
+                        "outline": "#727781",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#f8f9ff",
+                        "tertiary": "#6c3900",
+                        "secondary-container": "#cbdefe",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#d3e3ff",
+                        "inverse-primary": "#a3c9ff",
+                        "on-secondary-fixed-variant": "#354862",
+                        "background": "#f8f9ff",
+                        "inverse-on-surface": "#f0f0f6",
+                        "on-secondary-fixed": "#061c34",
+                        "primary-container": "#1f5fa0",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#d9dae0",
+                        "inverse-surface": "#2e3035",
+                        "on-tertiary-fixed-variant": "#6d3a00"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Be Vietnam Pro"],
+                        "label": ["Be Vietnam Pro"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed">
+<!-- TopAppBar Navigation -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-sm shadow-blue-900/5 flex justify-between items-center px-6 h-16 w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-900 dark:text-blue-400 active:scale-95 transition-transform duration-200" data-icon="menu">menu</span>
+<img alt="Nestlé Logo" class="h-6 w-auto" data-alt="Official Nestle corporate brand logo featuring the bird's nest icon in deep primary blue and white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1t0GjC1Giam5g07XwYX_zX08dNo1ID1Zr4AvPDImpWANkPUY97HnOZAOwk_0iB-HJmf2Nl4GyjynUhn6YeuCD9aWusX2I2J8_hvIIhPnc9BjGC7U8UvW1gh3DUObd8btx4GXrlhoyllJutgWZIJcQWeVH-xzxviHxdaw0enr_MsdqVPEIjsJrs4-Vpp0Yp_CKdzfSNBR87Jbj-odQSCA3ps-1kqvsjwo0AN3p8EUU4ZlBeqYiLSocVkc7KXthQsNQHgmMaqPBWho"/>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-slate-500 hover:opacity-80 transition-opacity" data-icon="search">search</span>
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container shadow-sm">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close-up portrait of a friendly professional woman smiling with soft natural lighting and clean background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAP3su03WPLDywbaMJcjUAbd22xqUceo1OtL6PXQwhG3zW9GZeB7DzP_iQArmhjantZ4rIg_DBH9xpYR3MtAt0qSAOB8kZqABhzJKcgAHhsTyUo0vFCrDO1d4iRv_YfpZnuPMIlkrRMiVYdaSBv_R5IKyOoZpkNQETGY6_rSTWeD3C1sUXqTjneNwYEC7yoP-NFffyYqG5NIjbKA4GAkqtUjJ5C_G0fxAFwVFbG0NyT58i7XJbQM1WgFGPrCoHC5bHTU8t-2NywviU"/>
+</div>
+</div>
+</header>
+<main class="pt-16 pb-24">
+<!-- Hero Section -->
+<section class="relative px-6 pt-8 pb-12 overflow-hidden">
+<div class="relative w-full h-[460px] rounded-xl overflow-hidden shadow-2xl shadow-primary/10">
+<img class="w-full h-full object-cover" data-alt="A warm family gathering around a kitchen table sharing healthy breakfast food with soft morning sunlight streaming through windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKcyzelNTQkViJtBnKdCt5xF41ST5KtQ5boDFiu3GqEmJLcHoGgDp8oazPNY2HoSPUJy8__A5me9eAoghRELpSwEZTJDXlExXl-MSERJAl1p6lTud7XHNCIMO74eAdyR8wl2GKJ5WaG9Jylz4JKAmk0A2Tk1GMU-mTSdG_exM2AeFHo3Oakuc-no5cTuTtMae7IphL8ghvIcVZDe8LUH12jRKowijIG6elb3L7tFhfF5fCc4fkCD7ypf6bzyE4xOuarUKpRo-ikU4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="font-headline font-bold text-on-primary/90 text-sm tracking-[0.2em] uppercase mb-2 block">Our Heritage</span>
+<h1 class="font-headline text-4xl font-extrabold text-on-primary leading-tight tracking-tight mb-4">
+                        Nourishing <br/>Families for <br/>Generations
+                    </h1>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary font-headline font-semibold px-8 py-3.5 rounded-full shadow-lg active:scale-95 transition-all">
+                        Discover Our Story
+                    </button>
+</div>
+</div>
+</section>
+<!-- Search Bar Overlay (Mobile Context) -->
+<section class="px-6 -mt-10 relative z-10">
+<div class="bg-surface-container-lowest p-2 rounded-full shadow-xl shadow-black/5 flex items-center border border-outline-variant/10">
+<div class="flex-1 flex items-center px-4 gap-3">
+<span class="material-symbols-outlined text-primary/60" data-icon="search">search</span>
+<input class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-outline font-body text-sm" placeholder="Search products or nutrition..." type="text"/>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="tune">tune</span>
+</button>
+</div>
+</section>
+<!-- Bento Grid: Value Propositions -->
+<section class="px-6 py-12 grid grid-cols-2 gap-4">
+<!-- Large Card -->
+<div class="col-span-2 bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-outline-variant/10 flex flex-col justify-between h-48 relative overflow-hidden">
+<div class="relative z-10">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Health &amp; Wellness</h3>
+<p class="text-on-surface-variant text-sm max-w-[60%] leading-relaxed">Personalized nutrition advice for every stage of life.</p>
+</div>
+<div class="absolute -right-4 -bottom-4 w-32 h-32 opacity-20">
+<span class="material-symbols-outlined !text-[120px] text-primary" data-icon="health_and_safety">health_and_safety</span>
+</div>
+<div class="relative z-10">
+<a class="text-primary font-semibold text-sm flex items-center gap-1 group" href="#">
+                        Learn more <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Small Card 1 -->
+<div class="bg-secondary-container/30 p-5 rounded-xl flex flex-col gap-4">
+<div class="w-10 h-10 rounded-full bg-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary" data-icon="eco">eco</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-sm text-on-secondary-container">Sustainability</h4>
+<p class="text-[11px] text-on-secondary-container/80 mt-1">Our path to Net Zero</p>
+</div>
+</div>
+<!-- Small Card 2 -->
+<div class="bg-tertiary-fixed/30 p-5 rounded-xl flex flex-col gap-4">
+<div class="w-10 h-10 rounded-full bg-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-tertiary" data-icon="coffee">coffee</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-sm text-on-tertiary-fixed-variant">Nespresso</h4>
+<p class="text-[11px] text-on-tertiary-fixed-variant/80 mt-1">The Art of Coffee</p>
+</div>
+</div>
+</section>
+<!-- Featured Products Horizontal Scroll -->
+<section class="py-4">
+<div class="px-6 flex justify-between items-end mb-6">
+<h2 class="font-headline text-2xl font-bold text-primary">Featured Brands</h2>
+<span class="text-xs font-bold text-primary tracking-widest uppercase">View All</span>
+</div>
+<div class="flex overflow-x-auto gap-4 px-6 pb-4 no-scrollbar">
+<div class="min-w-[160px] aspect-square bg-surface-container-low rounded-xl flex flex-col items-center justify-center p-4">
+<img class="h-24 w-auto mb-2 mix-blend-multiply" data-alt="Professional studio shot of a classic Nestle chocolate bar package on a clean white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBuKfz1z8qwzv0teowc8a9EFAFzteDhu5f4NOyOMAv74Q3gRUG_roD9U657VcgzZPMUQoIKpMPH43596CYKXuhJC7bvymt-pFYBiZbi95WbUyDYOlG2Y3IeMI2vFiq7qai3UsEZVSBcZJ11kgsqRbCa-mw_gvXyrDGak8r5OsjA-sS6ISvl6QgRTDvASk72xK1UsGPfzHg2xJXCAFz18xxkDZyz-jlbuxQqXFwZxHSWeaMo_5tlGcWcgyp7Kr0fQtOfVcnbu81YvY"/>
+<span class="font-headline font-bold text-xs text-on-surface">Confectionery</span>
+</div>
+<div class="min-w-[160px] aspect-square bg-surface-container-low rounded-xl flex flex-col items-center justify-center p-4">
+<img class="h-24 w-auto mb-2 mix-blend-multiply" data-alt="A premium glass of sparkling water with fresh lemon slice and ice bubbles against a bright airy background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOoqkcBvASPUqYPz9RrXo5FSGakLRvduP8EWqvoL65zfuV_6pYV_0RMO-qwrwT5C5rptgePXYkrG3vy82s6BJfnJyQUANHKP_bxewgOVLiYAuBLd0sfajTBEAZDw5xSZJ-ky-hIRfjXazcNyd88P1EEKCzKldwzpq-l44Q5h-6gc1DUGQIjOQARmFX_WGQhuV1hsTjiaeYnJopAOg19cDIOBBhAAcBChC4k0BZW0dVa554Hy3tbTMJBFT_q13cpPsHLFr5xoU7ovc"/>
+<span class="font-headline font-bold text-xs text-on-surface">Beverages</span>
+</div>
+<div class="min-w-[160px] aspect-square bg-surface-container-low rounded-xl flex flex-col items-center justify-center p-4">
+<img class="h-24 w-auto mb-2 mix-blend-multiply" data-alt="A bowl of nutritious colorful baby food with fresh vegetable garnishes on a light wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWiMptqQeWLWV7i_156IDnpw8J0u38YpVIMOG99O2T_ul4zeLg7v9d2tE6T_JqyniZBRUCoqrQF12RdT5vC69e5WwHUjU7enBM0FTIaa3pVAaGGcKg5loWPhvheo3ULSgI9Mig6lduv8I9npgu13aChte6HWuK7O-a8WltWs0Mq_-MZP0hajYe67l6oEHBCzNB1LBm5JwepK_c2AD6WmVZera4ClwjeegK8lR_PLsKsG2Rvb9mu1hjv-kCZB6qJNjCwTqTXIAzs0Q"/>
+<span class="font-headline font-bold text-xs text-on-surface">Nutrition</span>
+</div>
+</div>
+</section>
+</main>
+<!-- AI Chat Widget FAB -->
+<div class="fixed bottom-24 right-6 z-[60]">
+<button class="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-primary-container text-on-primary shadow-2xl shadow-primary/40 flex items-center justify-center active:scale-90 transition-all duration-300">
+<span class="material-symbols-outlined !text-3xl" data-icon="smart_toy">smart_toy</span>
+</button>
+</div>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-white/90 dark:bg-slate-950/90 backdrop-blur-2xl border-t border-slate-200/20 dark:border-slate-800/20 rounded-t-[1.5rem] shadow-[0_-8px_30px_rgb(0,0,0,0.04)]">
+<a class="flex flex-col items-center justify-center bg-blue-50 dark:bg-blue-900/30 text-[#004781] dark:text-blue-300 rounded-full px-5 py-2 active:scale-90 transition-all duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-['Be_Vietnam_Pro'] text-[10px] font-semibold tracking-wide uppercase">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2 hover:text-[#1f5fa0] dark:hover:text-blue-200 active:scale-90 transition-all duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+<span class="font-['Be_Vietnam_Pro'] text-[10px] font-semibold tracking-wide uppercase">Search</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2 hover:text-[#1f5fa0] dark:hover:text-blue-200 active:scale-90 transition-all duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="smart_toy">smart_toy</span>
+<span class="font-['Be_Vietnam_Pro'] text-[10px] font-semibold tracking-wide uppercase">Assistant</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2 hover:text-[#1f5fa0] dark:hover:text-blue-200 active:scale-90 transition-all duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-['Be_Vietnam_Pro'] text-[10px] font-semibold tracking-wide uppercase">Profile</span>
+</a>
+</nav>
+</body></html>
